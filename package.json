@@ -1,0 +1,26 @@
+{
+  "name": "slackr",
+  "version": "1.0.0",
+  "description": "a slackr website built with Vanilla JavaScript",
+  "main": "frontend/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server frontend -p 8080",
+    "deploy": "gh-pages -d build",
+    "build": "webpack-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke-mao/slackr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luke-mao/slackr/issues"
+  },
+  "homepage": "https://luke-mao.github.io/slackr",
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
